@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+
+.font-atkinson-hyper {
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn{
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* main style */
+
+header {
+    padding-top: 50px;
+    /* background: linear-gradient( */
+  to right,
+  #f7f3fc 0%,
+  #ece3f9 50%,
+  #d1bdf0 100%
+);
+
+
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-blue {
+    color:blue;
+}
+nav {
+    width: 73%;
+    max-width: 1140px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 52px;
+    align-items: center;
+}
+nav .menu a {
+    font-size: 21px;
+    color: #474747;
+    text-decoration: none;
+}
