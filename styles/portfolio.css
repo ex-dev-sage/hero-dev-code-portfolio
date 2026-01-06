@@ -14,13 +14,26 @@
 .btn{
     background-color: blue;
     border: none;
-    border-radius: 6px;
+    border-radius: 7px;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-
+.section-heading{
+    max-width: 1100px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+}
 /* main style */
 
 header {
@@ -29,7 +42,7 @@ header {
     background-repeat: no-repeat;
     background-color: #f5f0fc;
     background-size: auto 100%;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .logo h2 {
@@ -47,6 +60,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    margin-bottom: 50px;
 }
 
 nav .menu {
@@ -96,4 +110,29 @@ nav .menu a {
     color: #757575;
     line-height: 1.7;
     margin-bottom: 30px;
+}
+#about{
+    padding-top: 140px;
+}
+#about .about-container{
+    width: 70%;
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f0fc ;
+    padding: 131px 156px;
+    border-radius: 7px;
+
+}
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+.about-info .info-card h4 {
+    font-size: 35xp;
 }
